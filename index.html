@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Afeto Atípico</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="inicio">
+    <h1>Afeto Atípico</h1>
+    <p>Bem-vinda ao espaço de apoio para mães de crianças atípicas 💙</p>
+    <!-- Aqui pode colocar símbolos do autismo, como peças de quebra-cabeça -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Autism_Awareness_Ribbon.png" alt="Símbolo Autismo" class="simbolo" />
+    <button onclick="entrar()">ENTRAR</button>
+  </div>
+
+  <div class="menu" style="display: none;">
+    <button onclick="mostrarAba('maes')">Entre Mães</button>
+    <button onclick="mostrarAba('cuidado')">Espaço do Cuidado</button>
+    <button onclick="mostrarAba('direitos')">Direitos e Benefícios</button>
+  </div>
+
+  <div id="maes" class="aba" style="display: none;">
+    <h2>Entre Mães</h2>
+    <div id="chat"></div>
+    <input type="text" id="mensagem" placeholder="Digite sua mensagem..."/>
+    <button onclick="enviarMensagem()">Enviar</button>
+  </div>
+
+  <div id="cuidado" class="aba" style="display: none;">
+    <h2>Espaço do Cuidado</h2>
+    <p>Dicas para lidar com crises:</p>
+    <ul>
+      <li>Mantenha a calma e procure um ambiente tranquilo.</li>
+      <li>Use objetos que a criança gosta.</li>
+      <li>Evite barulhos e luzes fortes.</li>
+    </ul>
+    <p><strong>Alerta de Gatilhos:</strong> Evite mudanças bruscas de rotina, locais muito cheios ou barulhentos.</p>
+  </div>
+
+  <div id="direitos" class="aba" style="display: none;">
+    <h2>Direitos e Benefícios</h2>
+    <ul>
+      <li>BPC (Benefício de Prestação Continuada).</li>
+      <li>Isenção de impostos para compra de veículos adaptados.</li>
+      <li>Prioridade em atendimentos de saúde e educação.</li>
+      <li>Transporte gratuito em algumas cidades.</li>
+      <!-- Você pode ir adicionando mais -->
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
