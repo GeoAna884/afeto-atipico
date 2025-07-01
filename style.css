@@ -45,3 +45,19 @@ input[type="text"] {
   border-radius: 5px;
   border: 1px solid #034f84;
 }
+.btn-inicial {
+  padding: 15px 40px;
+  background-color: #034f84;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 30px;
+}
+
+.btn-inicial:hover {
+  background-color: #03396c;
+  transform: scale(1.05);
+}
