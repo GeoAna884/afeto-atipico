@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f0ff;
+  color: #03396c;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #034f84;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #034f84;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #03396c;
+}
+
+.simbolo {
+  width: 100px;
+  margin: 20px;
+}
+
+#chat {
+  border: 1px solid #034f84;
+  height: 200px;
+  overflow-y: scroll;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #034f84;
+}
