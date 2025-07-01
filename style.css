@@ -61,3 +61,21 @@ input[type="text"] {
   background-color: #03396c;
   transform: scale(1.05);
 }
+.inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ocupa a altura inteira da tela */
+  text-align: center;
+  padding: 20px;
+}
+.inicio h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.inicio p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
