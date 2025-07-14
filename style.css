@@ -83,21 +83,22 @@ input[type="text"] {
 }
 .menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Um embaixo do outro */
   justify-content: center;
   align-items: center;
-  gap: 20px; /* espaço entre os botões */
-  margin-top: 50px;
+  gap: 25px; /* Espaço entre os botões */
+  margin-top: 60px;
 }
 
 .menu button {
-  padding: 20px 60px;
-  width: 250px; /* largura fixa (pode aumentar se quiser) */
+  width: 300px; /* Mesma largura para todos */
+  height: 70px; /* Mesma altura para todos */
   background-color: #034f84;
   color: white;
   border: none;
-  border-radius: 50px; /* bem arredondado */
-  font-size: 20px;
+  border-radius: 50px; /* Bem arredondado */
+  font-size: 22px;
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 }
@@ -106,4 +107,3 @@ input[type="text"] {
   background-color: #03396c;
   transform: scale(1.05);
 }
-
