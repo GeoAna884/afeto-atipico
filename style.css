@@ -81,4 +81,12 @@ input[type="text"] {
   background-color: #03396c;
   transform: scale(1.05);
 }
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* espaço entre os botões */
+  margin-top: 40px;
+}
 
